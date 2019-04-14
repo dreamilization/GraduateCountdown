@@ -1,7 +1,6 @@
 (function() {
     // Set the date we're counting down to
-    var countDownDate = new Date("Jun 1, 2019 14:00").getTime();
-    // Official Time: Jun 1, 2019 14:00
+    var countDownDate = new Date("Jun 1 14:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
@@ -17,6 +16,17 @@
         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // If the count down is over, write some text
+        if (distance < 0 || days >= 325) {
+            clearInterval(x);
+            document.getElementById("title").innerHTML = "You have finally graduated from Lake Ridge Academy!";
+            document.getElementById("dayLabel").innerHTML = "";
+            document.getElementById("hourLabel").innerHTML = "June 1, " + new Date().getFullYear();
+            document.getElementById("hourLabel").style.color = "#000";
+            document.getElementById("minLabel").innerHTML = "";
+            document.getElementById("secLabel").innerHTML = "";
+        }
 
         if(days !== 0)
             document.getElementById("dayLabel").innerHTML = days + " Days";
@@ -44,15 +54,5 @@
         else
             document.getElementById("secLabel").innerHTML = "";
 
-        // If the count down is over, write some text
-        if (distance < 0) {
-            clearInterval(x);
-            document.getElementById("title").innerHTML = "You have finally graduated from Lake Ridge Academy!";
-            document.getElementById("dayLabel").innerHTML = "";
-            document.getElementById("hourLabel").innerHTML = "June 1, 2019";
-            document.getElementById("hourLabel").style.color = "#000";
-            document.getElementById("minLabel").innerHTML = "";
-            document.getElementById("secLabel").innerHTML = "";
-        }
     }, 200);
 } ());

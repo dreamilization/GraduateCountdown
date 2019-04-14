@@ -34,7 +34,7 @@ function updateTime() {
         document.getElementById("minLabel").innerHTML = minutes + " Minutes";
     else {
         document.getElementById("minLabel").innerHTML = "T - " + seconds;
-        document.getElementById("minLabel").style.fontSize = "85px";
+        document.getElementById("minLabel").style.fontSize = distance <= 10 ? "" + (85 + 2 * distance) + "px" : "85px";
     }
 
     if(minutes !== 0 || hours !== 0 || days !== 0)
@@ -44,13 +44,16 @@ function updateTime() {
 
     // If the count down is over, write some text
     if (distance < 0) {
-        clearInterval(x);
         document.getElementById("title").innerHTML = "You have finally graduated from Lake Ridge Academy!";
         document.getElementById("dayLabel").innerHTML = "";
         document.getElementById("hourLabel").innerHTML = "June 1, " + new Date().getFullYear();
         document.getElementById("hourLabel").style.color = "#000";
         document.getElementById("minLabel").innerHTML = "";
         document.getElementById("secLabel").innerHTML = "";
+    }
+    else
+    {
+        setTimeout(updateTime, 998);
     }
 }
 
@@ -65,6 +68,4 @@ function getTime() {
 (function run()
 {
     updateTime();
-    // Update the count down every 1 second
-    var x = setInterval(updateTime, 950);
 }());

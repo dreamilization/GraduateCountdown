@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f68bff1f-6b69-4553-9f1d-5d046d05c28b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="121" selection-start-line="31" selection-start-column="121" selection-end-line="31" selection-end-column="121" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -28,19 +29,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+            <state relative-caret-position="683">
+              <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
+            <state relative-caret-position="1995">
               <caret line="133" column="42" selection-start-line="133" selection-start-column="42" selection-end-line="133" selection-end-column="42" />
             </state>
           </provider>
@@ -62,9 +63,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/doc/usage.md" />
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -90,7 +91,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,10 +103,16 @@
               <item name="GraduateCountdown" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GraduateCountdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraduateCountdown" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,7 +147,9 @@
       <workItem from="1555217546927" duration="302000" />
       <workItem from="1555217860011" duration="5820000" />
       <workItem from="1555225355497" duration="813000" />
-      <workItem from="1555228207834" duration="565000" />
+      <workItem from="1555228207834" duration="615000" />
+      <workItem from="1555255333651" duration="78000" />
+      <workItem from="1555255826233" duration="1151000" />
     </task>
     <task id="LOCAL-00001" summary="Remove LICENSE">
       <created>1555217669599</created>
@@ -178,14 +186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555228685219</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add a replace font family.">
+      <created>1555228796098</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555228796098</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7500000" />
+    <option name="totallyTimeSpent" value="8779000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="927" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="927" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
@@ -237,7 +252,8 @@
     <MESSAGE value="Fixed a bug that might display a fatal countdown." />
     <MESSAGE value="Fixed a bug that will cause the website title unable to display. Minor fix." />
     <MESSAGE value="Fixed a bug that will cause the website improperly display the countdown." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed a bug that will cause the website improperly display the countdown." />
+    <MESSAGE value="Add a replace font family." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a replace font family." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/humans.txt" />
@@ -257,27 +273,27 @@
     <entry file="file://$PROJECT_DIR$/icon.png" />
     <entry file="file://$PROJECT_DIR$/site.webmanifest" />
     <entry file="file://$PROJECT_DIR$/doc/usage.md" />
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+        <state relative-caret-position="1995">
+          <caret line="133" column="42" selection-start-line="133" selection-start-column="42" selection-end-line="133" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="121" selection-start-line="31" selection-start-column="121" selection-end-line="31" selection-end-column="121" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="133" column="42" selection-start-line="133" selection-start-column="42" selection-end-line="133" selection-end-column="42" />
+        <state relative-caret-position="683">
+          <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
         </state>
       </provider>
     </entry>

@@ -104,8 +104,41 @@ textarea {
 
 
 
+.time {
+    text-align: center;
+    font-size: 6vh;
+    margin-top: 0px;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
 
+h1 {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 8.5vh;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 400;
+    line-height: 10vh;
+    padding: 10px;
+}
 
+h3 {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px;
+}
+
+.copyright {
+    font-family: Consolas, serif;
+    font-size: 10px;
+    padding: 15px 30px;
+    vertical-align: bottom;
+    text-align: center;
+    left: auto;
+    bottom: 0%;
+}
 
 
 

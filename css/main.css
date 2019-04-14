@@ -121,6 +121,13 @@ h1 {
     padding: 10px;
 }
 
+.unselect {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
 h3 {
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     font-size: 14px;

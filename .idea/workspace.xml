@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f68bff1f-6b69-4553-9f1d-5d046d05c28b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="f68bff1f-6b69-4553-9f1d-5d046d05c28b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -161,7 +158,7 @@
       <workItem from="1555228207834" duration="615000" />
       <workItem from="1555255333651" duration="78000" />
       <workItem from="1555255826233" duration="3598000" />
-      <workItem from="1555266350086" duration="1141000" />
+      <workItem from="1555266350086" duration="1210000" />
     </task>
     <task id="LOCAL-00001" summary="Remove LICENSE">
       <created>1555217669599</created>
@@ -240,11 +237,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555260657694</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Bug fix.">
+      <created>1555267539509</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1555267539510</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12367000" />
+    <option name="totallyTimeSpent" value="12436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="927" extended-state="0" />
@@ -305,7 +309,8 @@
     <MESSAGE value="Update LICENSE" />
     <MESSAGE value="Update LICENSE, UI change." />
     <MESSAGE value="UI change" />
-    <option name="LAST_COMMIT_MESSAGE" value="UI change" />
+    <MESSAGE value="Bug fix." />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug fix." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/humans.txt" />

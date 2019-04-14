@@ -25,21 +25,21 @@
             document.getElementById("dayLabel").style.color = "#3a96f7";
         }
 
-        if(hours !== 0)
+        if(hours !== 0 || days !== 0)
             document.getElementById("hourLabel").innerHTML = hours + " Hours";
         else {
             document.getElementById("hourLabel").innerHTML = "Just Couple More Minutes!";
             document.getElementById("hourLabel").style.color = "#f74272";
         }
 
-        if(minutes !== 0)
+        if(minutes !== 0 || hours !== 0 || days !== 0)
             document.getElementById("minLabel").innerHTML = minutes + " Minutes";
         else {
             document.getElementById("minLabel").innerHTML = "T - " + seconds;
             document.getElementById("minLabel").style.fontSize = "85px";
         }
 
-        if(minutes !== 0)
+        if(minutes !== 0 || hours !== 0 || days !== 0)
             document.getElementById("secLabel").innerHTML = seconds + " Seconds";
         else
             document.getElementById("secLabel").innerHTML = "";

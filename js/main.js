@@ -1,6 +1,6 @@
 (function() {
     // Set the date we're counting down to
-    var countDownDate = new Date(new Date().getTime() + 11000);
+    var countDownDate = getTime();
 
     function updateTime() {
 

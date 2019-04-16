@@ -1,4 +1,13 @@
 (function() {
+
+    function getTime() {
+        if(new Date().getMonth() >= 8)
+        {
+            return new Date("Jun 1, " + (new Date().getFullYear() + 1) + " 14:00").getTime();
+        }
+        return new Date("Jun 1, " + new Date().getFullYear() + " 14:00").getTime();
+    }
+
     // Set the date we're counting down to
     var countDownDate = getTime();
 
@@ -8,7 +17,7 @@
         var now = new Date().getTime();
 
         // Find the distance between now and the count down date
-        var distance = countDownDate.getTime() - now;
+        var distance = countDownDate - now;
 
         // Time calculations for days, hours, minutes and seconds
         var days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -61,14 +70,6 @@
         {
             requestAnimationFrame(updateTime);
         }
-    }
-
-    function getTime() {
-        if(new Date().getMonth() >= 8)
-        {
-            return new Date("Jun 1, " + (new Date().getFullYear() + 1) + " 14:00").getTime();
-        }
-        return new Date("Jun 1, " + new Date().getFullYear() + " 14:00").getTime();
     }
 
     requestAnimationFrame(updateTime);

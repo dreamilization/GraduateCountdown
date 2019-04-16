@@ -108,7 +108,14 @@ textarea {
     text-align: center;
     font-size: 6vh;
     margin-top: 0px;
+    transition: transform .7s;
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.time:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
 }
 
 h1 {

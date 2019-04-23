@@ -102,6 +102,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    background-color: #a0f0ff;
+    background-image: linear-gradient(147deg, #f74272 0%, #5f6dfd 74%);
+    min-height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+}
 
 
 .time {
@@ -109,7 +115,6 @@ textarea {
     font-size: 6vh;
     margin-top: 0px;
     transition: transform .7s;
-    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
 .time:hover {
@@ -119,8 +124,7 @@ textarea {
 }
 
 h1 {
-    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-    font-size: 8.5vh;
+    font-size: 7.5vh;
     font-style: normal;
     font-variant: small-caps;
     font-weight: 400;
@@ -136,7 +140,6 @@ h1 {
 }
 
 h3 {
-    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-variant: normal;

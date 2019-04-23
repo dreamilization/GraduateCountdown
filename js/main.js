@@ -25,46 +25,51 @@
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+        var dayLabel = document.getElementById("dayLabel");
+        var hourLabel = document.getElementById("hourLabel");
+        var minLabel = document.getElementById("minLabel");
+        var secLabel = document.getElementById("secLabel");
+
 
         if(days !== 0) {
-            document.getElementById("dayLabel").innerHTML = days + " Days";
+            dayLabel.innerHTML = days + " Days";
         }
         else {
-            document.getElementById("dayLabel").innerHTML = "It's Today!";
-            document.getElementById("dayLabel").style.color = "#3a96f7";
+            dayLabel.innerHTML = "It's Today!";
+            dayLabel.style.color = "#3a96f7";
         }
 
         if(hours !== 0 || days !== 0) {
-            document.getElementById("hourLabel").innerHTML = hours + " Hours";
+            hourLabel.innerHTML = hours + " Hours";
         }
         else {
-            document.getElementById("hourLabel").innerHTML = "Just Couple More Minutes!";
-            document.getElementById("hourLabel").style.color = "#f74272";
+            hourLabel.innerHTML = "Just Couple More Minutes!";
+            hourLabel.style.color = "#f74272";
         }
 
         if(minutes !== 0 || hours !== 0 || days !== 0) {
-            document.getElementById("minLabel").innerHTML = minutes + " Minutes";
+            minLabel.innerHTML = minutes + " Minutes";
         }
         else {
-            document.getElementById("minLabel").innerHTML = "T - " + seconds;
-            document.getElementById("minLabel").style.fontSize = distance <= 10000 ? (165 - 8 * distance / 1000) + "px" : "85px";
+            minLabel.innerHTML = "T - " + seconds;
+            minLabel.style.fontSize = distance <= 10000 ? (165 - 8 * distance / 1000) + "px" : "85px";
         }
 
         if(minutes !== 0 || hours !== 0 || days !== 0) {
-            document.getElementById("secLabel").innerHTML = seconds + " Seconds";
+            secLabel.innerHTML = seconds + " Seconds";
         }
         else {
-            document.getElementById("secLabel").innerHTML = "";
+            secLabel.innerHTML = "";
         }
 
         // If the count down is over, write some text
         if (distance < 0) {
             document.getElementById("title").innerHTML = "You have finally graduated from Lake Ridge Academy!";
-            document.getElementById("dayLabel").innerHTML = "";
-            document.getElementById("hourLabel").innerHTML = "June 1, " + new Date().getFullYear();
-            document.getElementById("hourLabel").style.color = "#000";
-            document.getElementById("minLabel").innerHTML = "";
-            document.getElementById("secLabel").innerHTML = "";
+            dayLabel.innerHTML = "";
+            hourLabel.innerHTML = "June 1, " + new Date().getFullYear();
+            hourLabel.style.color = "#000";
+            minLabel.innerHTML = "";
+            secLabel.innerHTML = "";
         }
         else
         {

@@ -36,7 +36,7 @@
         }
         else {
             dayLabel.innerHTML = "It's Today!";
-            dayLabel.style.color = "#3a96f7";
+            dayLabel.style.fontSize = "7vh";
         }
 
         if(hours !== 0 || days !== 0) {
@@ -44,7 +44,7 @@
         }
         else {
             hourLabel.innerHTML = "Just Couple More Minutes!";
-            hourLabel.style.color = "#f74272";
+            hourLabel.style.fontSize = "6.5vh";
         }
 
         if(minutes !== 0 || hours !== 0 || days !== 0) {

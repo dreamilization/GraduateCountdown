@@ -36,7 +36,7 @@
         }
         else {
             dayLabel.innerHTML = "It's Today!";
-            dayLabel.style.fontSize = "7vh";
+            dayLabel.style.fontSize = "6.5vh";
         }
 
         if(hours !== 0 || days !== 0) {
@@ -44,7 +44,7 @@
         }
         else {
             hourLabel.innerHTML = "Just Couple More Minutes!";
-            hourLabel.style.fontSize = "6.5vh";
+            hourLabel.style.fontSize = "6.2vh";
         }
 
         if(minutes !== 0 || hours !== 0 || days !== 0) {
@@ -67,7 +67,7 @@
             document.getElementById("title").innerHTML = "You have finally graduated from Lake Ridge Academy!";
             dayLabel.innerHTML = "";
             hourLabel.innerHTML = "June 1, " + new Date().getFullYear();
-            hourLabel.style.color = "#000";
+            hourLabel.style.color = "aliceblue";
             minLabel.innerHTML = "";
             secLabel.innerHTML = "";
         }

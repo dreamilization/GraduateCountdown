@@ -103,6 +103,7 @@ textarea {
    ========================================================================== */
 
 body {
+    padding: 10px;
     background-color: #f74272;
     background-image: linear-gradient(147deg, #f74272 0%, #5f6dfd 74%);
     min-height: 100vh;

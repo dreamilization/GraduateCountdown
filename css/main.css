@@ -115,14 +115,13 @@ body {
 .time {
     text-align: center;
     font-size: 6vh;
-    margin-top: 0px;
-    transition: transform .7s;
+    margin-top: 0;
+    color: aliceblue;
+    transition: 10s;
 }
 
-.time:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5);
+.time:hover{
+    opacity: 0;
 }
 
 h1 {
@@ -156,7 +155,7 @@ h3 {
     vertical-align: bottom;
     text-align: center;
     left: auto;
-    bottom: 0%;
+    bottom: 0;
 }
 
 

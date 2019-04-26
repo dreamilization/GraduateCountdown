@@ -117,12 +117,8 @@ body {
     font-size: 6vh;
     margin-top: 0;
     color: aliceblue;
-    transition: 10s;
 }
 
-.time:hover{
-    opacity: 0;
-}
 
 h1 {
     font-size: 7.5vh;

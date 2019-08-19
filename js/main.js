@@ -1,7 +1,7 @@
 (function() {
 
     function getTime() {
-        if(new Date().getMonth() >= 8)
+        if(new Date().getMonth() >= 7)
         {
             return new Date("Jun 1, " + (new Date().getFullYear() + 1) + " 14:00").getTime();
         }

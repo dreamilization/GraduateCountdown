@@ -132,9 +132,6 @@ h1 {
 @media screen and (max-width: 813px) {
     h1 {
         font-size: 3em;
-        font-style: normal;
-        font-variant: small-caps;
-        padding: 0 7vh 3vw 7vh;
         line-height: 1em;
     }
 
@@ -172,14 +169,45 @@ h3 {
     bottom: 0;
 }
 
+.dropdown {
+    color: aliceblue;
+    font-size: 1.5vw;
+    text-align: center;
+    border: 0;
+    background-color: rgba(255,255,255,.05);
+    padding: 8px;
 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
 
+.field {
+    position: relative;
+    left: 43vw;
+    padding: 8px;
+}
 
+@media screen and (max-width: 1024px) {
+    .field {
+        left: 38.5vw;
+    }
 
+    .dropdown {
+        font-size: 2.5vw;
+    }
+}
 
+@media screen and (max-width: 560px) {
+    .field {
+        left: 31vw;
+    }
 
-
-
+    .dropdown {
+        font-size: 4vw;
+    }
+}
 
 
  /* ==========================================================================

@@ -1,5 +1,4 @@
 (function() {
-
     function getTime() {
         if(new Date().getMonth() >= 7)
         {

@@ -172,7 +172,7 @@ h3 {
 .dropdown {
     color: aliceblue;
     font-size: 1.5vw;
-    text-align: center;
+    text-align-last: center;
     border: 0;
     background-color: rgba(255,255,255,.05);
     padding: 8px;
@@ -181,6 +181,10 @@ h3 {
     -moz-appearance: none;
     text-indent: 1px;
     text-overflow: '';
+}
+
+.dropdown:focus {
+    outline: none;
 }
 
 .field {

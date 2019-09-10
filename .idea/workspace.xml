@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f68bff1f-6b69-4553-9f1d-5d046d05c28b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index_beta.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +98,8 @@
       <workItem from="1565579116914" duration="1000" />
       <workItem from="1566252034241" duration="117000" />
       <workItem from="1568089481945" duration="803000" />
-      <workItem from="1568090638056" duration="3153000" />
+      <workItem from="1568090638056" duration="3197000" />
+      <workItem from="1568094786086" duration="126000" />
     </task>
     <task id="LOCAL-00001" summary="Remove LICENSE">
       <created>1555217669599</created>
@@ -306,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566252060883</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Content Update.">
+      <created>1568094620736</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1568094620736</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +331,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Remove LICENSE" />
     <MESSAGE value="Removed unnecessary files. Update web page." />
@@ -344,6 +350,7 @@
     <MESSAGE value="Fixed a bug that will cause not to display the countdown." />
     <MESSAGE value="Content update." />
     <MESSAGE value="BugFix" />
-    <option name="LAST_COMMIT_MESSAGE" value="BugFix" />
+    <MESSAGE value="Content Update." />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Update." />
   </component>
 </project>

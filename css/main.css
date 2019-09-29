@@ -102,10 +102,16 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+:root {
+    color-scheme: light dark;
+    --bg-color: #f74272;
+    --bg-image: linear-gradient(147deg, #f74272 0%, #5f6dfd 74%);
+}
+
 body {
     padding: 8px;
-    background-color: #f74272;
-    background-image: linear-gradient(147deg, #f74272 0%, #5f6dfd 74%);
+    background-color: var(--bg-color);
+    background-image: var(--bg-image);
     min-height: 100vh;
     font-family: 'Fira Sans', sans-serif;
     color: aliceblue;
@@ -140,6 +146,13 @@ h1 {
         font-size: 2.7em;
         margin-top: 0;
         color: aliceblue;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root{
+        --bg-color: black;
+        --bg-image: linear-gradient(147deg, #000000, #000000);
     }
 }
 

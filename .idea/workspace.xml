@@ -37,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -99,7 +99,8 @@
       <workItem from="1566252034241" duration="117000" />
       <workItem from="1568089481945" duration="803000" />
       <workItem from="1568090638056" duration="3197000" />
-      <workItem from="1568094786086" duration="126000" />
+      <workItem from="1568094786086" duration="147000" />
+      <workItem from="1569798078535" duration="459000" />
     </task>
     <task id="LOCAL-00001" summary="Remove LICENSE">
       <created>1555217669599</created>
@@ -311,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568094620736</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Content Update.">
+      <created>1568094925699</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1568094925699</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -141,11 +141,6 @@ body {
         display: block;
         visibility: visible;
     }
-
-    html {
-        overflow: visible;
-    }
-
 }
 
 

@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f68bff1f-6b69-4553-9f1d-5d046d05c28b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Images/1a9689d8-e03a-9c20-c5ab-cb7f683a8c96.webPlatform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/3fb00a48-a896-3784-9eff-751349e89305.webPlatform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/4b94e6c2-331f-b83a-8128-8406ecbe1523.webPlatform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/51328398-61e0-4014-a97f-d6cc417bb1b0.webPlatform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/544bf6b9-622f-09d8-92ec-0e3bd4a35042.webPlatform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/6dbdacf3-1e0e-7087-de5a-84fb5baee420.webPlatform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/7a86bd38-adb0-bde1-0431-a567c592aa94.webPlatform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/7d495844-c4b1-ec2e-0bac-d981d072ccef.webPlatform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/85f8aec2-54ca-92da-662c-84f1c4f5295b.webPlatform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/a06a6e11-16f4-31bc-9199-c577feafc95b.webPlatform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/a1123dcc-60c1-b18c-aded-fe6fd83d89c5.webPlatform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/b2eb0f4e-ed93-4f2d-c6d7-017ce3634661.webPlatform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/bbf01c72-1778-7969-bef5-bc7bffd2052c.webPlatform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/bced63f5-3acb-5e68-beca-19aa71c78a11.webPlatform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/c051f5e2-a1ef-060f-d45a-29e36e75ca99.webPlatform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/cc2c954b-ec2c-1286-b639-f4de320edf9b.webPlatform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/d2331883-2479-06f4-3453-1bc59654a0d9.webPlatform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/d5fe2959-fae8-f17f-49a1-a1e1181d10e5.webPlatform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/e18a20a1-8a89-235f-9f99-688b4be216c7.webPlatform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ico.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,15 +42,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Images" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -122,7 +105,7 @@
       <workItem from="1568094786086" duration="147000" />
       <workItem from="1569798078535" duration="1956000" />
       <workItem from="1569807129864" duration="1109000" />
-      <workItem from="1569858244401" duration="312000" />
+      <workItem from="1569858244401" duration="511000" />
     </task>
     <task id="LOCAL-00001" summary="Remove LICENSE">
       <created>1555217669599</created>
@@ -397,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569858418705</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Content Update.">
+      <created>1569858849893</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1569858849893</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

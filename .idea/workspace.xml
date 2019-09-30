@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f68bff1f-6b69-4553-9f1d-5d046d05c28b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-    </list>
+    <list default="true" id="f68bff1f-6b69-4553-9f1d-5d046d05c28b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,14 +108,7 @@
       <workItem from="1569860837172" duration="222000" />
       <workItem from="1569861178667" duration="736000" />
       <workItem from="1569862195446" duration="80000" />
-      <workItem from="1569862488262" duration="468000" />
-    </task>
-    <task id="LOCAL-00002" summary="Removed unnecessary files. Update web page.">
-      <created>1555223205814</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1555223205814</updated>
+      <workItem from="1569862488262" duration="495000" />
     </task>
     <task id="LOCAL-00003" summary="Fixed a bug that might display a fatal countdown.">
       <created>1555225666183</created>
@@ -455,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569862861035</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Content Update.">
+      <created>1569862992582</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1569862992582</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

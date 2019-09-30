@@ -128,16 +128,19 @@ body {
 
 .mobile{
     display: none;
+    visibility: hidden;
 }
 
 @media screen and (max-width: 560px)
 {
     .full{
         display: none;
+        visibility: hidden;
     }
 
     .mobile{
         display: block;
+        visibility: visible;
     }
 
 }

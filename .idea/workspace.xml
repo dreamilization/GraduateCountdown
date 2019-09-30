@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f68bff1f-6b69-4553-9f1d-5d046d05c28b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_beta.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_beta.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +102,8 @@
       <workItem from="1568089481945" duration="803000" />
       <workItem from="1568090638056" duration="3197000" />
       <workItem from="1568094786086" duration="147000" />
-      <workItem from="1569798078535" duration="1855000" />
+      <workItem from="1569798078535" duration="1956000" />
+      <workItem from="1569807129864" duration="237000" />
     </task>
     <task id="LOCAL-00001" summary="Remove LICENSE">
       <created>1555217669599</created>
@@ -335,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569798862385</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Content Update.">
+      <created>1569806350804</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1569806350804</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,9 +382,9 @@
     <MESSAGE value="Fixed a bug that will cause not to display the countdown." />
     <MESSAGE value="Content update." />
     <MESSAGE value="BugFix" />
-    <MESSAGE value="Content Update." />
     <MESSAGE value="Updated Beta Branch" />
     <MESSAGE value="Add support to Dark Scheme." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add support to Dark Scheme." />
+    <MESSAGE value="Content Update." />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Update." />
   </component>
 </project>

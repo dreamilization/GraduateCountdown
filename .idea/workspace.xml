@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f68bff1f-6b69-4553-9f1d-5d046d05c28b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -111,14 +110,7 @@
       <workItem from="1569860837172" duration="222000" />
       <workItem from="1569861178667" duration="736000" />
       <workItem from="1569862195446" duration="80000" />
-      <workItem from="1569862488262" duration="283000" />
-    </task>
-    <task id="LOCAL-00001" summary="Remove LICENSE">
-      <created>1555217669599</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1555217669599</updated>
+      <workItem from="1569862488262" duration="468000" />
     </task>
     <task id="LOCAL-00002" summary="Removed unnecessary files. Update web page.">
       <created>1555223205814</created>
@@ -456,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569862704862</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Content Update.">
+      <created>1569862861035</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1569862861035</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

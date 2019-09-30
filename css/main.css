@@ -143,6 +143,10 @@ body {
         visibility: visible;
     }
 
+    html {
+        overflow: visible;
+    }
+
 }
 
 

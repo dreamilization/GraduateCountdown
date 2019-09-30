@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f68bff1f-6b69-4553-9f1d-5d046d05c28b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Images/ico.png" afterDir="false" />
-    </list>
+    <list default="true" id="f68bff1f-6b69-4553-9f1d-5d046d05c28b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +103,7 @@
       <workItem from="1568094786086" duration="147000" />
       <workItem from="1569798078535" duration="1956000" />
       <workItem from="1569807129864" duration="1109000" />
-      <workItem from="1569858244401" duration="511000" />
+      <workItem from="1569858244401" duration="615000" />
     </task>
     <task id="LOCAL-00001" summary="Remove LICENSE">
       <created>1555217669599</created>
@@ -387,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569858849893</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Content Update.">
+      <created>1569859225145</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1569859225145</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

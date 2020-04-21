@@ -146,6 +146,10 @@ body {
     html{
         overflow: auto;
     }
+
+    .time{
+        font-size: 5vh;
+    }
 }
 
 

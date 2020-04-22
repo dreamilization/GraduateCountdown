@@ -5,6 +5,7 @@
 
     // Set the date we're counting down to
     let countDownDate = -1;
+    let isDisplay = 0;
 
     function generateDropdown() {
         const select = document.getElementById("year_select");
@@ -25,18 +26,65 @@
 
     function main() {
         const select = document.getElementById("year_select");
-        if (select.options[select.selectedIndex].value.localeCompare("-1") === 0) {
+        let cookie_year = getCookie("year");
+        if (!isDisplay) {
+            isDisplay = 1;
+            if (cookie_year.localeCompare("-1") === 0) {
+                select.hidden = false;
+                const copyright = document.getElementById("copyright");
+                copyright.hidden = false;
+                const egg = document.getElementById("egg");
+                egg.hidden = false;
+            }
+        }
+        if ((cookie_year.localeCompare("-1") === 0) &&
+            (select.options[select.selectedIndex].value.localeCompare("-1") === 0)) {
             requestAnimationFrame(main);
         }
         else {
             select.disabled = true;
             select.hidden = true;
+            let year = -1;
+            if (getCookie("year").localeCompare("-1") === 0) {
+                year = select.options[select.selectedIndex].value;
+                setCookie(year);
+            }
+            else {
+                year = cookie_year;
+            }
+            countDownDate = getTime(year);
+            updateTime();
             const countdown = document.getElementById("countdown");
-            console.log(select.options[select.selectedIndex].value);
-            countDownDate = getTime(select.options[select.selectedIndex].value);
             countdown.hidden = false;
+            const copyright = document.getElementById("copyright");
+            copyright.hidden = false;
+            const egg = document.getElementById("egg");
+            egg.hidden = false;
             requestAnimationFrame(updateTime);
         }
+    }
+
+    function setCookie(year, remove) {
+        let d = new Date();
+        d.setTime(remove ? 0 : d.getTime() + (360*24*60*60*1000));
+        let expires = "expires="+ d.toUTCString();
+        document.cookie = "year=" + year + ";" + expires + ";path=/";
+    }
+
+    function getCookie(cname) {
+        let name = cname + "=";
+        let decodedCookie = decodeURIComponent(document.cookie);
+        let ca = decodedCookie.split(';');
+        for(let i = 0; i <ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) === ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) === 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "-1";
     }
 
     function generateEgg() {

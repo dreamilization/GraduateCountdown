@@ -18,7 +18,7 @@
   <h1 style="text-align: center" class="full unselect" id="title">Remaining Time to Graduate</h1>
   <h1 style="text-align: center" class="mobile unselect">Remaining Time<br/></h1>
   <div class="field" class="unselect">
-    <select class="dropdown" id="year_select">
+    <select class="dropdown" id="year_select" hidden>
       <option value="-1">Graduation Year</option>
     </select>
   </div>
@@ -28,7 +28,9 @@
     <p id="minLabel" class="time unselect"></p>
     <p id="secLabel" class="time unselect"></p>
   </div>
-  <p class="copyright unselect">&copy; 2020 William Wu.<br/>
+  <script src="js/remove_cookie.js"></script>
+  <p class="copyright unselect" id="copyright" hidden>&copy; 2020 William Wu.
+    <a href="javascript:window.location.reload();" onclick="removeCookie()" style="color: aliceblue; text-decoration: none">Click to Reset</a><br/>
     Time displayed above is for reference only.</p>
   <p class="copyright unselect" id="egg"></p>
   <script src="js/main_beta.js"></script>

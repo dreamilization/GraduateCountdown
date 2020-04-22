@@ -29,7 +29,8 @@
         let cookie_year = getCookie("year");
         if (!isDisplay) {
             isDisplay = 1;
-            document.getElementById("jsEnable").hidden = false;
+            const js = document.getElementById("jsEnable");
+            js.hidden = true;
             if (cookie_year.localeCompare("-1") === 0) {
                 select.hidden = false;
                 const copyright = document.getElementById("copyright");

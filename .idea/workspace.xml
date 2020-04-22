@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f68bff1f-6b69-4553-9f1d-5d046d05c28b" name="Default Changelist" comment="">
+    <list default="true" id="f68bff1f-6b69-4553-9f1d-5d046d05c28b" name="Default Changelist" comment="Content Update.">
+      <change afterPath="$PROJECT_DIR$/js/main_beta.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_beta.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_beta.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,19 +59,19 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Images" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/css" />
@@ -107,14 +125,8 @@
       <workItem from="1569884268381" duration="55000" />
       <workItem from="1569884440520" duration="72000" />
       <workItem from="1571697004922" duration="26000" />
-      <workItem from="1587502661312" duration="355000" />
-    </task>
-    <task id="LOCAL-00004" summary="Fixed a bug that will cause the website title unable to display. Minor fix.">
-      <created>1555228466065</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1555228466065</updated>
+      <workItem from="1587502661312" duration="459000" />
+      <workItem from="1587511962849" duration="3780000" />
     </task>
     <task id="LOCAL-00005" summary="Fixed a bug that will cause the website improperly display the countdown.">
       <created>1555228685219</created>
@@ -452,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569884316094</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Content Update.">
+      <created>1587503039614</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1587503039615</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,5 +512,15 @@
     <MESSAGE value="Add support to Dark Scheme." />
     <MESSAGE value="Content Update." />
     <option name="LAST_COMMIT_MESSAGE" value="Content Update." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="256" key="CommitChangelistDialog2" timestamp="1587503086282">
+      <screen x="0" y="23" width="2560" height="1369" />
+    </state>
+    <state x="574" y="256" key="CommitChangelistDialog2/0.23.2560.1369/-1680.1336.1680.1027@0.23.2560.1369" timestamp="1587503086282" />
+    <state x="574" y="421" key="Vcs.Push.Dialog.v2" timestamp="1587503042255">
+      <screen x="0" y="23" width="2560" height="1369" />
+    </state>
+    <state x="574" y="421" key="Vcs.Push.Dialog.v2/0.23.2560.1369/-1680.1336.1680.1027@0.23.2560.1369" timestamp="1587503042255" />
   </component>
 </project>

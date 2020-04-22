@@ -110,7 +110,10 @@ textarea {
 }
 
 body {
-    padding: 8px;
+    padding: env(safe-area-inset-top, 5px)
+             env(safe-area-inset-right, 5px)
+             env(safe-area-inset-bottom, 5px)
+             env(safe-area-inset-left, 5px);
     background-color: var(--bg-color);
     background-image: var(--bg-image);
     min-height: 100vh;

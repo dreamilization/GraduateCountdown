@@ -110,7 +110,7 @@ textarea {
 }
 
 body {
-    padding: env(safe-area-inset-top, 5px)
+    padding: env(safe-area-inset-top, 8px)
              env(safe-area-inset-right, 5px)
              env(safe-area-inset-bottom, 5px)
              env(safe-area-inset-left, 5px);

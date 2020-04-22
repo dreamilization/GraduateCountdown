@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f68bff1f-6b69-4553-9f1d-5d046d05c28b" name="Default Changelist" comment="Content Update.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index_beta.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_beta.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,14 +125,8 @@
       <workItem from="1569884440520" duration="72000" />
       <workItem from="1571697004922" duration="26000" />
       <workItem from="1587502661312" duration="459000" />
-      <workItem from="1587511962849" duration="3989000" />
-    </task>
-    <task id="LOCAL-00007" summary="Fixed an issue that may use more computer resources than expected.">
-      <created>1555257157911</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1555257157911</updated>
+      <workItem from="1587511962849" duration="4004000" />
+      <workItem from="1587519136921" duration="83000" />
     </task>
     <task id="LOCAL-00008" summary="Implement a uniform way for countdown.">
       <created>1555259207098</created>
@@ -469,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587516209577</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Content Update.">
+      <created>1587516287383</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1587516287383</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,9 +518,9 @@
       <screen x="0" y="23" width="2560" height="1369" />
     </state>
     <state x="574" y="256" key="CommitChangelistDialog2/0.23.2560.1369/-1680.1336.1680.1027@0.23.2560.1369" timestamp="1587503086282" />
-    <state x="574" y="421" key="Vcs.Push.Dialog.v2" timestamp="1587516214620">
+    <state x="574" y="421" key="Vcs.Push.Dialog.v2" timestamp="1587516291418">
       <screen x="0" y="23" width="2560" height="1369" />
     </state>
-    <state x="574" y="421" key="Vcs.Push.Dialog.v2/0.23.2560.1369/-1680.1336.1680.1027@0.23.2560.1369" timestamp="1587516214620" />
+    <state x="574" y="421" key="Vcs.Push.Dialog.v2/0.23.2560.1369/-1680.1336.1680.1027@0.23.2560.1369" timestamp="1587516291418" />
   </component>
 </project>

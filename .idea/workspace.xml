@@ -127,14 +127,7 @@
       <workItem from="1587511962849" duration="4004000" />
       <workItem from="1587519136921" duration="197000" />
       <workItem from="1587522848002" duration="3374000" />
-      <workItem from="1587529232412" duration="803000" />
-    </task>
-    <task id="LOCAL-00012" summary="Bug fix.">
-      <created>1555267539509</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1555267539510</updated>
+      <workItem from="1587529232412" duration="885000" />
     </task>
     <task id="LOCAL-00013" summary="Optimization.">
       <created>1555426294575</created>
@@ -472,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587529924580</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Content Update.">
+      <created>1587530105715</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1587530105715</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,9 +519,9 @@
       <screen x="0" y="23" width="2560" height="1369" />
     </state>
     <state x="574" y="256" key="CommitChangelistDialog2/0.23.2560.1369/-1680.1336.1680.1027@0.23.2560.1369" timestamp="1587503086282" />
-    <state x="574" y="421" key="Vcs.Push.Dialog.v2" timestamp="1587529928166">
+    <state x="574" y="421" key="Vcs.Push.Dialog.v2" timestamp="1587530108223">
       <screen x="0" y="23" width="2560" height="1369" />
     </state>
-    <state x="574" y="421" key="Vcs.Push.Dialog.v2/0.23.2560.1369/-1680.1336.1680.1027@0.23.2560.1369" timestamp="1587529928166" />
+    <state x="574" y="421" key="Vcs.Push.Dialog.v2/0.23.2560.1369/-1680.1336.1680.1027@0.23.2560.1369" timestamp="1587530108223" />
   </component>
 </project>

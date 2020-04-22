@@ -111,9 +111,9 @@ textarea {
 
 body {
     padding: env(safe-area-inset-top, 8px)
-             env(safe-area-inset-right, 5px)
+             env(safe-area-inset-right)
              env(safe-area-inset-bottom, 5px)
-             env(safe-area-inset-left, 5px);
+             env(safe-area-inset-left);
     background-color: var(--bg-color);
     background-image: var(--bg-image);
     min-height: 100vh;
@@ -168,7 +168,7 @@ h1 {
 
 @media screen and (max-width: 813px) {
     h1 {
-        font-size: 3em;
+        font-size: 3.2em;
         line-height: 1em;
     }
 

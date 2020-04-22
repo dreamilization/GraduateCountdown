@@ -20,7 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f68bff1f-6b69-4553-9f1d-5d046d05c28b" name="Default Changelist" comment="Content Update.">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/legacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_beta.html" beforeDir="false" afterPath="$PROJECT_DIR$/legacy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main_beta.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,14 +135,8 @@
       <workItem from="1587519136921" duration="197000" />
       <workItem from="1587522848002" duration="3374000" />
       <workItem from="1587529232412" duration="971000" />
-      <workItem from="1587530444897" duration="1580000" />
-    </task>
-    <task id="LOCAL-00020" summary="Content update.">
-      <created>1556223253284</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1556223253284</updated>
+      <workItem from="1587530444897" duration="1617000" />
+      <workItem from="1587581181372" duration="1022000" />
     </task>
     <task id="LOCAL-00021" summary="Content update.">
       <created>1556223275799</created>
@@ -473,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587532926521</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Content Update.">
+      <created>1587533024669</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1587533024669</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,9 +528,9 @@
       <screen x="0" y="23" width="2560" height="1369" />
     </state>
     <state x="574" y="256" key="CommitChangelistDialog2/0.23.2560.1369/-1680.1336.1680.1027@0.23.2560.1369" timestamp="1587503086282" />
-    <state x="574" y="421" key="Vcs.Push.Dialog.v2" timestamp="1587532928691">
+    <state x="574" y="421" key="Vcs.Push.Dialog.v2" timestamp="1587533027211">
       <screen x="0" y="23" width="2560" height="1369" />
     </state>
-    <state x="574" y="421" key="Vcs.Push.Dialog.v2/0.23.2560.1369/-1680.1336.1680.1027@0.23.2560.1369" timestamp="1587532928691" />
+    <state x="574" y="421" key="Vcs.Push.Dialog.v2/0.23.2560.1369/-1680.1336.1680.1027@0.23.2560.1369" timestamp="1587533027211" />
   </component>
 </project>

@@ -1,33 +1,126 @@
 (function() {
-    function getTime() {
-        if(new Date().getMonth() >= 7)
-        {
-            return new Date("Jun 1, " + (new Date().getFullYear() + 1) + " 14:00").getTime();
-        }
-        return new Date("Jun 1, " + new Date().getFullYear() + " 14:00").getTime();
+    function getTime(year) {
+        return new Date("Jun 1, " + year + " 14:00").getTime();
     }
 
     // Set the date we're counting down to
-    var countDownDate = getTime();
+    let countDownDate = -1;
+    let isDisplay = 0;
+
+    function generateDropdown() {
+        const select = document.getElementById("year_select");
+        let targetYear = -1;
+        if (new Date().getMonth() >= 7) {
+            targetYear = new Date().getFullYear() + 1;
+        }
+        else {
+            targetYear = new Date().getFullYear();
+        }
+        for (let i = 0; i < 4; i++) {
+            const option = document.createElement("option");
+            option.text = "Class of " + (targetYear + i);
+            option.value = "" + (targetYear + i);
+            select.add(option);
+        }
+    }
+
+    function main() {
+        const select = document.getElementById("year_select");
+        let cookie_year = getCookie("year");
+        if (!isDisplay) {
+            isDisplay = 1;
+            const js = document.getElementById("jsEnable");
+            js.hidden = true;
+            if (cookie_year.localeCompare("-1") === 0) {
+                select.hidden = false;
+                const copyright = document.getElementById("copyright");
+                copyright.hidden = false;
+                const egg = document.getElementById("egg");
+                egg.hidden = false;
+            }
+        }
+        if ((cookie_year.localeCompare("-1") === 0) &&
+            (select.options[select.selectedIndex].value.localeCompare("-1") === 0)) {
+            requestAnimationFrame(main);
+        }
+        else {
+            select.disabled = true;
+            select.hidden = true;
+            let year = -1;
+            if (getCookie("year").localeCompare("-1") === 0) {
+                year = select.options[select.selectedIndex].value;
+                setCookie(year);
+            }
+            else {
+                year = cookie_year;
+            }
+            countDownDate = getTime(year);
+            updateTime();
+            const countdown = document.getElementById("countdown");
+            countdown.hidden = false;
+            const copyright = document.getElementById("copyright");
+            copyright.hidden = false;
+            const egg = document.getElementById("egg");
+            egg.hidden = false;
+            requestAnimationFrame(updateTime);
+        }
+    }
+
+    function setCookie(year, remove) {
+        let d = new Date();
+        d.setTime(remove ? 0 : d.getTime() + (360*24*60*60*1000));
+        let expires = "expires="+ d.toUTCString();
+        document.cookie = "year=" + year + ";" + expires + ";path=/";
+    }
+
+    function getCookie(cname) {
+        let name = cname + "=";
+        let decodedCookie = decodeURIComponent(document.cookie);
+        let ca = decodedCookie.split(';');
+        for(let i = 0; i <ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) === ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) === 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "-1";
+    }
+
+    function generateEgg() {
+        const num = ((Math.random() * 10000000) % 4) | 0;
+        const list = ["Paradigm shifting without a clutch!",
+                      "VFS: Busy inodes after unmount. Self-destruct in 5 seconds. Have a nice day...",
+                      "At the source of every error which is blamed on the computer you will find at least two human " +
+                      "errors, including the error of blaming it on the computer.",
+                      "\"Always code as if the guy who ends up maintaining your code will be a violent psychopath " +
+                      "who knows where you live.\" - Martin Golding",
+                      "There is just no portable way to use double-quoted strings inside double-quoted back-quoted " +
+                      "expressions"];
+        const select = document.getElementById("egg");
+        select.textContent = list[num];
+    }
 
     function updateTime() {
 
         // Get today's date and time
-        var now = new Date().getTime();
+        const now = new Date().getTime();
 
         // Find the distance between now and the count down date
-        var distance = countDownDate - now;
+        const distance = countDownDate - now;
 
         // Time calculations for days, hours, minutes and seconds
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        var dayLabel = document.getElementById("dayLabel");
-        var hourLabel = document.getElementById("hourLabel");
-        var minLabel = document.getElementById("minLabel");
-        var secLabel = document.getElementById("secLabel");
+        const dayLabel = document.getElementById("dayLabel");
+        const hourLabel = document.getElementById("hourLabel");
+        const minLabel = document.getElementById("minLabel");
+        const secLabel = document.getElementById("secLabel");
 
 
         if(days !== 0) {
@@ -75,6 +168,7 @@
             requestAnimationFrame(updateTime);
         }
     }
-
-    requestAnimationFrame(updateTime);
+    generateDropdown();
+    generateEgg();
+    requestAnimationFrame(main);
 }());

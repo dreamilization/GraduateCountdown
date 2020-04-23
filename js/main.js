@@ -87,7 +87,6 @@
     }
 
     function generateEgg() {
-        const num = ((Math.random() * 10000000) % 4) | 0;
         const list = ["Paradigm shifting without a clutch!",
             "VFS: Busy inodes after unmount. Self-destruct in 5 seconds. Have a nice day...",
             "At the source of every error which is blamed on the computer you will find at least two human " +
@@ -96,6 +95,7 @@
             "who knows where you live.\" - Martin Golding",
             "There is just no portable way to use double-quoted strings inside double-quoted back-quoted " +
             "expressions"];
+        const num = Math.floor(Math.random() * list.length);
         const select = document.getElementById("egg");
         select.textContent = list[num];
     }

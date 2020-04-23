@@ -1,6 +1,8 @@
 (function () {
     function getTime(year) {
-        return new Date("Jun 1, " + year + " 14:00").getTime();
+        const date = new Date("Jun 1, " + year + " 14:00");
+        date.toLocaleString("en-US", {timeZone: "America/New_York"});
+        return date.getTime();
     }
 
     // Set the date we're counting down to
